@@ -1,0 +1,89 @@
+1 - Instalar o java sdk
+
+Adicionar nas variaveis de Ambiente:
+
+Path - adicionar o caminho "C:\Program Files\Java\jdk1.8.0_151\bin"
+
+Criar a Variavel JAVA_HOME e inserir o caminho "C:\Program Files\Java\jdk1.8.0_151"
+
+Rodar no prompt de comando (CMD) o comando "javac"
+
+
+
+2 - baixar e descompacta o Apache Ant
+
+Adicionar nas variaveis de Ambiente:
+
+Path - adicionar o caminho "C:\Apache Ant\bin"
+
+Rodar no prompt de comando (CMD) o comando "ant"
+
+
+
+3 - Install eclipse
+
+
+
+4 - Instalar o Android SDK
+
+Você pode instalar através do plugin do android sdk no eclipse na opção "Install New Software" e informar a URL "https://dl-ssl.google.com/android/eclipse/"
+
+Instalar em um caminho padrão "C:\Android\android-sdks"
+
+Referencia:
+https://stuff.mit.edu/afs/sipb/project/android/docs/sdk/installing/installing-adt.html
+
+
+Outra opção é baixar o android sdk na URL "https://android-sdk.br.uptodown.com/windows/download" e Instalar em um caminho padrão "C:\Android\android-sdks"
+
+
+Adicionar nas variaveis de Ambiente:
+
+Path - adicionar o caminho "C:\Android\android-sdks\platform-tools"
+
+Criar a Variavel ANDROID_HOME e inserir o caminho "C:\Android" e no PATH "C:\Android\platform-tools"
+
+Rodar no prompt de comando (CMD) o comando "adb" e "adb devices"
+
+
+
+5 - Plugin Cucumber and eclipse
+
+Instalar através da opção "Install New Software" e informar a URL "https://cucumber.io/cucumber-eclipse/update-site"
+
+
+
+6 - Instalar o Appium
+
+IP padrão: 	127.0.0.1
+Porta padrão: 	4723
+
+
+
+7 - Projeto Maven em Java
+
+
+
+
+
+
+
+
+
+
+
+chrome://inspect/#devices
+
+https://opengapps.org/
+
+
+bcdedit /set hypervisorlaunchtype off
+
+
+
+
+
+
+
+
+

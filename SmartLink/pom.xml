@@ -1,0 +1,227 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Duratex_Group</groupId>
+  <artifactId>SmartLink</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>SmartLink</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+  
+ 	<!-- Basico da automacao para usar o Selenium -->
+	<!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>	
+	
+	<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-util -->
+	<dependency>
+	    <groupId>org.eclipse.jetty</groupId>
+	    <artifactId>jetty-util</artifactId>
+	    <version>9.4.9.v20180320</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-support</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-remote-driver</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-server</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-chrome-driver</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-firefox-driver</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-ie-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-ie-driver</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-safari-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-safari-driver</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-edge-driver</artifactId>
+	    <version>3.11.0</version>
+	</dependency>	
+	
+	<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+	<dependency>
+	    <groupId>com.google.guava</groupId>
+	    <artifactId>guava</artifactId>
+	    <version>24.1-jre</version>
+	</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/com.google.collections/google-collections -->
+	<dependency>
+	    <groupId>com.google.collections</groupId>
+	    <artifactId>google-collections</artifactId>
+	    <version>1.0</version>
+	</dependency>
+	<!-- Basico da automacao para usar o Selenium -->
+	
+	
+	<!-- Basico da automacao para usar Winium com Selenium -->
+	<!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-elements-desktop -->
+	<dependency>
+	    <groupId>com.github.2gis.winium</groupId>
+	    <artifactId>winium-elements-desktop</artifactId>
+	    <version>0.2.0-1</version>
+	</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver -->
+	<dependency>
+	    <groupId>com.github.2gis.winium</groupId>
+	    <artifactId>winium-webdriver</artifactId>
+	    <version>0.1.0-1</version>
+	</dependency>
+	<!-- Basico da automacao para usar Winium com Selenium -->
+
+		
+	<!-- Cucumber -->
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>1.2.5</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>1.2.5</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-core</artifactId>
+	    <version>1.2.5</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>gherkin</artifactId>
+	    <version>5.0.0</version>
+	</dependency>
+	<!-- Cucumber -->
+		
+		
+	<!-- Appium -->
+	<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+	<dependency>
+	    <groupId>io.appium</groupId>
+	    <artifactId>java-client</artifactId>
+	    <version>5.0.4</version>
+	</dependency>
+	<!-- Appium -->
+	
+	
+	<!-- Report -->
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>3.1.3</version>
+	    <scope>provided</scope>
+	</dependency>
+	<!-- Report -->
+	
+	
+	<!-- QR Code -->
+	<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+	<dependency>
+	    <groupId>com.google.zxing</groupId>
+	    <artifactId>core</artifactId>
+	    <version>3.3.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+	<dependency>
+	    <groupId>com.google.zxing</groupId>
+	    <artifactId>javase</artifactId>
+	    <version>3.3.2</version>
+	</dependency>
+	<!-- QR Code -->
+	
+	
+		
+	<!-- Json -->
+	<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+	<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.8.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/net.code-story/http -->
+	<dependency>
+	    <groupId>net.code-story</groupId>
+	    <artifactId>http</artifactId>
+	    <version>2.105</version>
+	    <scope>test</scope>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+	<dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-core</artifactId>
+	    <version>2.16.0</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- Json -->
+    
+  </dependencies>
+</project>
